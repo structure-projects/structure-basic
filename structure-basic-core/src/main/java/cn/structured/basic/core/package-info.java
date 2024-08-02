@@ -1,0 +1,1 @@
+package cn.structured.basic.core;
