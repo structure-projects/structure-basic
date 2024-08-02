@@ -5,13 +5,19 @@
     <parent>
         <groupId>cn.structured</groupId>
         <artifactId>structure-dependencies</artifactId>
-        <version>1.2.1.RELEASE</version>
+        <version>1.2.2</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <packaging>jar</packaging>
     <artifactId>structure-basic-api</artifactId>
-    <version>1.0.1</version>
+    <version>${revision}</version>
+
+    <properties>
+        <revision>1.0.1</revision>
+        <structure.version>1.2.1.RELEASE</structure.version>
+        <function.version>1.0.1</function.version>
+    </properties>
 
     <url>https://projects.structured.cn/structure-basic</url>
     <inceptionYear>2021</inceptionYear>
@@ -47,12 +53,6 @@
         <connection>scm:git:git://github.com/structure-projects/structure-basic.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:structure-projects/structure-basic.git</developerConnection>
     </scm>
-
-    <properties>
-        <structure.version>1.2.1.RELEASE</structure.version>
-        <function.version>1.0.1</function.version>
-    </properties>
-
 
     <dependencies>
         <dependency>
